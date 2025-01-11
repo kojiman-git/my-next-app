@@ -1,4 +1,18 @@
-import React from 'react'; 
+import Link from "next/link";
+import { navList } from "../data/nav";
+
 export default function Home() {
-  return <h1>ようこそ、Next.jsの世界へ！</h1>;
+  return (
+    <ul className="navList">
+      {navList.map((item) => {
+        return (
+          <li key={item}>
+            <Link href={`/${item}`}>
+              {item}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
 }
