@@ -12,4 +12,5 @@ export const navList = [
   "070_my-counter-app_useReducer",
   "070_my-counter-app_useReducer_Material_UI",
   "080_my-task-app_DisplayConditions",
+  "080_my-task-app_DisplayConditions_Material_UI",
 ];
