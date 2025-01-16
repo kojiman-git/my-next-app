@@ -16,4 +16,5 @@ export const navList = [
   "090_my-memo-app_ComponentSegmentation",
   "090_my-memo-app_ComponentSegmentation_Material_UI",
   "100_my-contact-list_ListsAndKeys",
+  "100_my-contact-list_ListsAndKeys_Material_UI",
 ];
