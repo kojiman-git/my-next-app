@@ -19,4 +19,5 @@ export const navList = [
   "100_my-contact-list_ListsAndKeys_Material_UI",
   "110_my-form",
   "110_my-form_Material_UI",
+  "120_shopping-cart-app_redux",
 ];
